@@ -1,0 +1,24 @@
+Package: dogs
+Title: A New Package for Dogs
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Lluís",
+           family = "Revilla Sancho",
+           role = c("aut", "cre"),
+           email = "lluis.revilla@gmail.com")
+Description: A package for analyzing dogs population in Ghana during last years,
+    specially on the cities. BLA bla a long description of the package with lots
+    of very useful things.
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    dplyr
+Suggests: 
+    rmarkdown,
+    knitr,
+    testthat (>= 3.0.0)
+VignetteBuilder: knitr
+Config/testthat/edition: 3
